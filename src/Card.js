@@ -1,4 +1,4 @@
-const Card = ({login,avatar_url,html_url}) =>{
+const Card = ({login, avatar_url, html_url})=>{
     return <article className="card">
         <img src={avatar_url} alt={login} />
         <h4>${login}</h4>
